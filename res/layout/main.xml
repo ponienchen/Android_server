@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/underwaterdroid"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="43dp"
+        android:layout_y="16dp"
+        android:text="IP: "
+        android:textSize="20dp" />
+
+     <Button
+         android:id="@+id/connect"
+         android:layout_width="90dp"
+         android:layout_height="wrap_content"
+         android:layout_x="14dp"
+         android:layout_y="368dp"
+         android:text="connect" />
+
+     <Button
+         android:id="@+id/disconnect"
+         android:layout_width="90dp"
+         android:layout_height="wrap_content"
+         android:layout_x="107dp"
+         android:layout_y="368dp"
+         android:text="disconnect" />
+
+     <Button
+         android:id="@+id/deliver"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="201dp"
+         android:layout_y="368dp"
+         android:text="deliver" />
+
+     <EditText
+         android:id="@+id/ip_addr"
+         android:layout_width="166dp"
+         android:layout_height="wrap_content"
+         android:layout_x="96dp"
+         android:layout_y="6dp" />
+
+     <EditText
+         android:id="@+id/portno"
+         android:layout_width="166dp"
+         android:layout_height="wrap_content"
+         android:layout_x="96dp"
+         android:layout_y="59dp" >
+
+       
+     </EditText>
+
+     <TextView
+         android:layout_width="55dp"
+         android:layout_height="wrap_content"
+         android:layout_x="15dp"
+         android:layout_y="67dp"
+         android:text="PORT: "
+         android:textSize="20dp" />
+
+     <EditText
+         android:id="@+id/received_text"
+         android:layout_width="248dp"
+         android:layout_height="148dp"
+         android:layout_x="15dp"
+         android:layout_y="198dp"
+         android:gravity="top"
+         android:scrollbars="vertical"
+     />
+
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="13dp"
+         android:layout_y="101dp"
+         android:text="send: "
+         android:textSize="18dp" />
+
+     <EditText
+         android:id="@+id/msg_to_deliver"
+         android:layout_width="247dp"
+         android:layout_height="wrap_content"
+         android:layout_x="15dp"
+         android:layout_y="125dp"
+         android:gravity="top" />
+
+     <TextView
+         android:layout_width="96dp"
+         android:layout_height="wrap_content"
+         android:layout_x="13dp"
+         android:layout_y="173dp"
+         android:text="Received: "
+         android:textSize="18dp" />
+    
+</AbsoluteLayout>
